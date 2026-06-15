@@ -1,6 +1,6 @@
 // ============================================================
 // ORAYN DEMO TEMPLATE — STARTER
-// PRESET: Boutique / Retail & Fashion
+// PRESET: Event Planner / Events
 // ============================================================
 
 export type Service = {
@@ -32,93 +32,93 @@ export type BusinessData = {
 };
 
 const businessData: BusinessData = {
-  businessName: "Eclat Fashion House",
+  businessName: "Grandeur Events",
   tagline:
-    "Curated women's fashion, African prints, and contemporary styles. Dress with intention.",
-  phone: "+234 809 012 3456",
-  whatsappNumber: "2348090123456",
-  email: "shop@eclatfashion.ng",
-  address: "18 Balogun Market Road, Lagos Island",
+    "Turning your vision into an unforgettable event. Weddings, corporate functions, and celebrations done flawlessly.",
+  phone: "+234 810 123 4567",
+  whatsappNumber: "2348101234567",
+  email: "hello@grandeurevents.ng",
+  address: "7 Ozumba Mbadiwe Avenue, Victoria Island",
   city: "Lagos",
-  category: "Boutique",
-  industry: "Retail & Fashion",
-  logoText: "Eclat",
+  category: "Event Planning",
+  industry: "Events",
+  logoText: "Grandeur",
   primaryColor: "#1B2A4A",
   accentColor: "#C49A28",
-  ctaLabel: "Shop Our Collection",
+  ctaLabel: "Plan Your Event",
 
   about:
-    "Eclat Fashion House is a premium Lagos boutique specialising in contemporary women's wear, Ankara and Adire designs, and occasion outfits. We have been dressing Lagos women for corporate, social, and traditional events for over 6 years. Every piece in our store is personally curated — no low-quality imports, no mass-produced catalogue items. We also offer bespoke tailoring for clients who want something entirely their own.",
+    "Grandeur Events is a full-service event planning and management company based in Lagos. Since 2016, we have planned and executed weddings, corporate galas, birthday celebrations, product launches, and social events for clients across Nigeria. We handle every detail — from concept and decor to vendor management, catering coordination, and day-of execution. Your event runs smoothly because we plan obsessively so you never have to worry.",
 
   services: [
     {
-      name: "Ready-to-Wear Collection",
+      name: "Wedding Planning",
       description:
-        "Curated selection of dresses, blouses, co-ords, and trousers for the professional and social woman. New arrivals weekly.",
-      icon: "ShoppingBag",
+        "Full wedding planning and day-of coordination. We manage vendors, logistics, decor, and timeline so you enjoy your day completely.",
+      icon: "Heart",
     },
     {
-      name: "Ankara & Adire Designs",
+      name: "Corporate Events",
       description:
-        "African print outfits made with quality fabrics. Aso-ebi sets, modern Ankara blends, and festival looks.",
-      icon: "Palette",
+        "Product launches, annual dinners, company retreats, conferences, and award ceremonies. Professional execution, always on brand.",
+      icon: "Briefcase",
     },
     {
-      name: "Bespoke Tailoring",
+      name: "Birthday & Social Celebrations",
       description:
-        "Custom-made outfits from your own fabric or ours. Formal gowns, wedding guest looks, and corporate wear.",
-      icon: "Scissors",
-    },
-    {
-      name: "Occasion Styling",
-      description:
-        "Personal styling service for events — birthdays, weddings, graduations, and corporate functions. We dress you head to toe.",
+        "Milestone birthdays, anniversaries, baby showers, and private parties. Every detail considered, every moment memorable.",
       icon: "Star",
     },
     {
-      name: "Accessories",
+      name: "Venue Sourcing & Decor",
       description:
-        "Handbags, belts, scarves, and jewellery that complete the look. Locally made and imported pieces carefully selected.",
-      icon: "Gem",
+        "We identify the right venue, negotiate pricing, and design your decor concept from scratch. Flowers, lighting, draping, and more.",
+      icon: "MapPin",
     },
     {
-      name: "Online Orders & Delivery",
+      name: "Catering Coordination",
       description:
-        "Order via Instagram or WhatsApp. We deliver across Lagos within 24–48 hours and ship nationwide within 3–5 days.",
-      icon: "Truck",
+        "We work with Lagos's best caterers to ensure your food service matches your event's quality. Menu planning and supervision included.",
+      icon: "UtensilsCrossed",
+    },
+    {
+      name: "Entertainment & MC Booking",
+      description:
+        "Live bands, DJs, comedians, and professional MCs sourced, contracted, and briefed. Your entertainment is in safe hands.",
+      icon: "Music",
     },
   ],
 
   whyUs: [
-    "6 years dressing Lagos women with style and confidence",
-    "Only quality fabrics and materials — no cheap imports",
-    "In-house tailoring for fully custom and aso-ebi orders",
-    "Nationwide delivery and responsive WhatsApp customer service",
+    "Over 200 events successfully executed since 2016",
+    "End-to-end management — you relax while we work",
+    "Trusted vendor network across Lagos and Abuja",
+    "Transparent budgeting — no hidden costs, no surprises",
   ],
 
   openingHours: [
-    { day: "Monday – Friday", hours: "9:00 AM – 7:00 PM" },
-    { day: "Saturday", hours: "9:00 AM – 8:00 PM" },
-    { day: "Sunday", hours: "12:00 PM – 5:00 PM" },
+    { day: "Monday – Friday", hours: "9:00 AM – 6:00 PM" },
+    { day: "Saturday", hours: "10:00 AM – 4:00 PM" },
+    { day: "Sunday", hours: "By appointment only" },
   ],
 
   gallery: [
     {
-      src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=85&auto=format&fit=crop",
-      alt: "Curated women's fashion display at Eclat",
+      src: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200&q=85&auto=format&fit=crop",
+      alt: "Elegantly decorated wedding reception hall",
     },
     {
-      src: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1200&q=85&auto=format&fit=crop",
-      alt: "Ankara and African print collections",
+      src: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1200&q=85&auto=format&fit=crop",
+      alt: "Corporate event setup and stage design",
     },
     {
-      src: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&q=85&auto=format&fit=crop",
-      alt: "Boutique interior with curated fashion pieces",
+      src: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=1200&q=85&auto=format&fit=crop",
+      alt: "Floral arrangements and decor at a celebration",
     },
   ],
 
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.9!2d3.3853!3d6.4526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ae000000001%3A0x0!2sBalogun%2C%20Lagos%20Island!5e0!3m2!1sen!2sng!4v1716000000005",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6!2d3.4299!3d6.4312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf52000000001%3A0x0!2sVictoria%20Island%2C%20Lagos!5e0!3m2!1sen!2sng!4v1716000000006",
 };
 
 export default businessData;
